@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230130165111">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230130175203">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,115 +14,208 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-			</div>
-		</header>
+		<aside>
+			<header class="header">
+
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title">об'яви від менторів</button>
+										<ul class="spollers__body">
+											<li><a href="#">10.01.2023</a></li>
+											<li><a href="#">11.01.2023</a></li>
+											<li><a href="#">12.01.2023</a></li>
+											<li><a href="#">15.01.2023</a></li>
+											<li><a href="#">16.01.2023</a></li>
+											<li><a href="#">30.01.2023</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="menu__item">
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title">Часті помилки в ДЗ</button>
+										<ul class="spollers__body">
+											<li><a href="#" data-goto=".mistakes__title--1">ДЗ 1</a></li>
+											<li><a href="#" data-goto=".mistakes__title--2">ДЗ 2</a></li>
+											<li><a href="#" data-goto=".mistakes__title--3">ДЗ 3</a></li>
+											<li><a href="#" data-goto=".mistakes__title--4">ДЗ 4</a></li>
+											<li><a href="#" data-goto=".mistakes__title--5">ДЗ 5</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li class="menu__item">
+								<div data-spollers class="spollers">
+									<div class="spollers__item">
+										<button type="button" data-spoller class="spollers__title">Часті запитання, поради, корисні матеріали</button>
+										<ul class="spollers__body">
+											<li><a href="#">Часті запитання</a></li>
+											<li><a href="#">Поради</a></li>
+											<li><a href="#">Корисні матеріали</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</header>
+		</aside>
 		<main class="page">
-			<section class="page__hero hero">
-				<div class="hero__container">
-					<h2 class="hero__title">Обяви від Менторів</h2>
-					<div data-spollers class="spollers">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">30.01.2023</button>
-							<div class="spollers__body">Далеко-далеко за словесными горами в стране гласных и согласных живут
-								рыбные тексты. Не океана он знаках наш послушавшись за, вопроса грустный, подзаголовок осталось,
-								журчит пустился ее пояс меня вдали образ взобравшись возвращайся!</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__mistakes mistakes">
+			<div class="page__mistakes mistakes">
 				<div class="mistakes__container">
-					<h2 class="mistakes__title">Часті помилки в ДЗ</h2>
-					<div data-spollers class="spollers">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">ДЗ 1</button>
-							<div class="spollers__body">
-								<div data-spollers class="spollers">
-									<div class="spollers__item">
-										<button type="button" data-spoller class="spollers__title">В шляху до файлу наприклад img
-											НЕ ПОТРІБНО ставити / на початку.</button>
-										<div class="spollers__body"> правильний шлях &lt;img src="img/logo.svg" alt="logo"&gt;
-											<p>не правильний шлях &lt;img src="/ img/logo.svg" alt="logo"&gt;</p>
-											<picture><source srcset="img" type="image/webp"><img src="img" alt="тут буде фото"></picture>
-										</div>
-										<button type="button" data-spoller class="spollers__title">В шляху до файлу наприклад img
-											НЕ ПОТРІБНО ставити / на початку.</button>
-										<div class="spollers__body"> правильний шлях &lt;img src="img/logo.svg" alt="logo"&gt;
-											<p>не правильний шлях &lt;img src="/ img/logo.svg" alt="logo"&gt;</p>
-											<picture><source srcset="img" type="image/webp"><img src="img" alt="тут буде фото"></picture>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div data-spollers class="spollers">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">ДЗ 2</button>
-							<div class="spollers__body">
-								<div data-spollers class="spollers">
-									<div class="spollers__item">
-										<button type="button" data-spoller class="spollers__title">В шляху до файлу наприклад img
-											НЕ ПОТРІБНО ставити / на початку.</button>
-										<div class="spollers__body">правильний шлях &lt;img src="img/logo.svg" alt="logo"&gt;
-											<p>не правильний шлях &lt;img src="/ img/logo.svg" alt="logo"&gt;</p>
-											<picture><source srcset="img" type="image/webp"><img src="img" alt="тут буде фото"></picture>
-										</div>
-										<button type="button" data-spoller class="spollers__title">В шляху до файлу наприклад img
-											НЕ ПОТРІБНО ставити / на початку.</button>
-										<div class="spollers__body">правильний шлях &lt;img src="img/logo.svg" alt="logo"&gt;
-											<p>не правильний шлях &lt;img src="/ img/logo.svg" alt="logo"&gt;</p>
-											<picture><source srcset="img" type="image/webp"><img src="img" alt="тут буде фото"></picture>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<h2 class="mistakes__title mistakes__title--1">ДЗ 1</h2>
+					<ul class="mistakes__list list-mistakes">
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+					</ul>
+					<h2 class="mistakes__title mistakes__title--2">ДЗ 2</h2>
+					<ul class="mistakes__list list-mistakes">
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+					</ul>
+					<h2 class="mistakes__title mistakes__title--3">ДЗ 3</h2>
+					<ul class="mistakes__list list-mistakes">
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+					</ul>
+					<h2 class="mistakes__title mistakes__title--4">ДЗ 4</h2>
+					<ul class="mistakes__list list-mistakes">
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+					</ul>
+					<h2 class="mistakes__title mistakes__title--5">ДЗ5</h2>
+					<ul class="mistakes__list list-mistakes">
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+						<li class="list-mistakes__item">
+							<div class="list-mistakes__question">Ошибка 1</div>
+							<div class="list-mistakes__answer">Далеко-далеко за словесными горами в стране гласных и согласных
+								живут рыбные тексты. Запятых рот языком снова над ведущими вопрос вскоре. На берегу курсивных
+								предупредила вдали выйти знаках гор вершину по всей города страну жаренные.</div>
+						</li>
+					</ul>
 				</div>
-			</section>
-			<section class="page__faq faq">
-				<div class="faq__container">
-					<h2 class="faq__title">Часті запитання</h2>
-					<div data-spollers class="spollers">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">Як сінхронізувати VS studio на ПК та
-								ноутбуку</button>
-							<div class="spollers__body">Далеко-далеко за словесными горами в стране гласных и согласных живут
-								рыбные тексты. Lorem родного, всемогущая текста переписали одна, решила дороге своих путь имени
-								ты рыбного переулка взгляд! Обеспечивает за снова текстов от всех?</div>
-						</div>
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">Як сінхронізувати VS studio на ПК та
-								ноутбуку</button>
-							<div class="spollers__body">Далеко-далеко за словесными горами в стране гласных и согласных живут
-								рыбные тексты. Lorem родного, всемогущая текста переписали одна, решила дороге своих путь имени
-								ты рыбного переулка взгляд! Обеспечивает за снова текстов от всех?</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="page__tips tips">
-				<div class="tips__container">
-					<h2 class="tips__title">Поради та корисні матеріали</h2>
-					<div data-spollers class="spollers">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">WhatFont - плагін для відображення
-								сімейства шрифту, розміру і тд.</button>
-							<div class="spollers__body">Контент спойлера</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			</div>
+
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230130165111"></script>
+	<script src="js/app.min.js?_v=20230130175203"></script>
 </body>
 
 </html>

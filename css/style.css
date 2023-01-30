@@ -248,6 +248,10 @@ svg path {
      object-fit: contain;
 }
 
+.header {
+  position: fixed;
+}
+
 /*
 .icon-menu {
 	display: none;
@@ -300,22 +304,29 @@ svg path {
 }
 */
 
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px 1fr;
+  grid-template-columns: 400px 1fr;
+}
+
 .page {
-  padding-top: 6.25rem;
+  font-size: 1.25rem;
 }
 
-.page__hero {
-  padding-bottom: 6.25rem;
+.mistakes__title:not(:last-child) {
+  margin-bottom: 0.9375rem;
 }
 
-.page__mistakes {
-  padding-bottom: 6.25rem;
+.list-mistakes:not(:last-child) {
+  margin-bottom: 2.8125rem;
 }
 
-.page__faq {
-  padding-bottom: 6.25rem;
+.list-mistakes__item:not(:last-child) {
+  margin-bottom: 1.25rem;
 }
 
-.page__tips {
-  padding-bottom: 6.25rem;
+.list-mistakes__question:not(:last-child) {
+  margin-bottom: 0.3125rem;
 }
